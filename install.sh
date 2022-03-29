@@ -2,7 +2,8 @@
 
 sudo echo -n ""
 
-source environment.sh
+DIRNAME=$(dirname "$(readlink -f "$0")")
+source $DIRNAME/environment.sh
 
 wget -O $NODE_FILE_FULL_NAME "https://nodejs.org/dist/$VERSION/$NODE_FILE_FULL_NAME"
 

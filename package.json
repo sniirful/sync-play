@@ -1,6 +1,6 @@
 {
   "name": "sync-play",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sync video playing across multiple devices in the same internet connection",
   "main": "index.js",
   "scripts": {
