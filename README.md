@@ -20,7 +20,7 @@ This program allows you to share and view synchronously across multiple devices 
 ### Linux
 Open the terminal and run the following commands:
 ```bash
-git clone https://git.com
+git clone https://github.com/sniirful/sync-play.git
 cd sync-play
 ./install.sh
 ```
